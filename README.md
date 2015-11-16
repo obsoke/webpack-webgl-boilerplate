@@ -13,10 +13,6 @@ together into a final JavaScript module.
 
 ## Usage
 
-1) Clone directory to your hard drive.
-2) ???
-3) Profit.
-
 The following commands are defined in `package.json`:
 
 #### `npm run build`
