@@ -6,7 +6,7 @@
   "scripts": {
       "build": "webpack --progress --colors",
       "watch": "webpack --progress --colors --watch",
-      "dev-server": "webpack-dev-server --progress --colors --content-base dist/"
+      "dev-server": "webpack-dev-server --progress --colors --content-base dist/ --inline"
   },
   "author": "Dale Karp <dale@dale.io> (http://dale.io)",
   "license": "CC-BY-4.0",
