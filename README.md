@@ -39,5 +39,5 @@ Run a development server at `http://localhost:8080/webpack-dev-server/`. This al
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## TODO
-- [ ] Setup instructions
+- [x] Setup instructions
 - [ ] Example of usage
