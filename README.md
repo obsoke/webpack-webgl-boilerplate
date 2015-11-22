@@ -13,9 +13,9 @@ together into a final JavaScript module.
 
 ## Install
 
-1) Download the repository: `curl -L https://github.com/daleee/webpack-webgl-boilerplate/archive/master.zip > webpack_webgl.zip`
-2) Unzip the code somehwere.
-3) When you want to use it: `cp -R /path/to/webpack/webgl/* mynewDir/`
+1. Download the repository: `curl -L https://github.com/daleee/webpack-webgl-boilerplate/archive/master.zip > webpack_webgl.zip`
+2. Unzip the code somehwere.
+3. When you want to use it: `cp -R /path/to/webpack/webgl/* mynewDir/`
 
 ## Usage
 
