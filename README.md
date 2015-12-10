@@ -13,10 +13,9 @@ together into a final JavaScript module.
 
 ## Install
 
-1. Download the repository: `curl -L https://github.com/daleee/webpack-webgl-boilerplate/archive/master.zip > webpack_webgl.zip`
-2. Unzip the code somehwere.
-3. When you want to use it: `cp -R /path/to/webpack/webgl/. mynewDir/`
-4. Run `npm install` to install dependencies.
+1. Download the latest release from the [Releases](https://github.com/daleee/webpack-webgl-boilerplate/releases) page.
+2. Unzip the code to where you want your project to live.
+3. Run `npm install` to install dependencies.
 
 ## Usage
 
@@ -31,7 +30,6 @@ Build a production version of `bundle.js` into `dist/`.
 Watch files in `src/` for changes, recompile on change.
 
 #### `npm run dev-server`
-(Requires `webpack-dev-server`)
 
 Run a development server at `http://localhost:8080/webpack-dev-server/`. This also will watch & recompile on file changes.
 
@@ -57,4 +55,4 @@ Run a development server at `http://localhost:8080/webpack-dev-server/`. This al
 
 ## TODO
 - [x] Setup instructions
-- [ ] Example of usage
+- [x] Example of usage
