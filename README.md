@@ -38,6 +38,23 @@ Run a development server at `http://localhost:8080/webpack-dev-server/`. This al
 ## License
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 
+## Changelog
+
+### 1.1
+
+[ADD] html-webpack-plugin
+[ADD] Adding HMR to the npm run dev-server command
+[ADD] Template index.html
+[CHANGE] Add filler content to main.js
+[CHANGE] Configure webpack to use index.html as a template
+[CHANGE] Now ignoring dist folder
+[CHANGE] Updated webpack config with variables, html-webpack-plugin
+[REMOVE] dist folder no longer needed thanks to html-webpack-plugin
+
+### 1.0
+
+Initial release.
+
 ## TODO
 - [x] Setup instructions
 - [ ] Example of usage
