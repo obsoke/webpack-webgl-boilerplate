@@ -9,6 +9,8 @@ var TEMPLATE_PATH = path.resolve(ROOT_PATH, 'src/index.html');
 var SHADER_PATH = path.resolve(ROOT_PATH, 'src/shaders');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 
+var debug = process.env.NODE_ENV !== 'production';
+
 module.exports = {
     entry: ENTRY_PATH,
     plugins: [
@@ -43,5 +45,7 @@ module.exports = {
                 loader: 'webpack-glsl'
             }
         ]
-    }
+    },
+    debug: debug,
+    devtool: debug ? 'eval-source-map' : 'source-map'
 };
