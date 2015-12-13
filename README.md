@@ -38,6 +38,11 @@ Run a development server at `http://localhost:8080/webpack-dev-server/`. This al
 
 ## Changelog
 
+### 1.1.1
+
+* [ADD] Support for source maps
+* [ADD] ENV flags for proper production builds
+
 ### 1.1
 
 * [ADD] html-webpack-plugin
