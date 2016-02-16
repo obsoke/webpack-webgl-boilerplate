@@ -8,8 +8,6 @@ together into a final JavaScript module.
 ## Requirements
 
 * npm
-* webpack (globally installed)
-* webpack-dev-server (globally installed)
 
 ## Install
 
@@ -29,7 +27,7 @@ Build a production version of `bundle.js` into `dist/`.
 
 Watch files in `src/` for changes, recompile on change.
 
-#### `npm run dev-server`
+#### `npm run dev`
 
 Run a development server at `http://localhost:8080/webpack-dev-server/`. This also will watch & recompile on file changes.
 
