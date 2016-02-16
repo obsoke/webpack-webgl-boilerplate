@@ -8,8 +8,6 @@ together into a final JavaScript module.
 ## Requirements
 
 * npm
-* webpack (globally installed)
-* webpack-dev-server (globally installed)
 
 ## Install
 
@@ -29,35 +27,14 @@ Build a production version of `bundle.js` into `dist/`.
 
 Watch files in `src/` for changes, recompile on change.
 
-#### `npm run dev-server`
+#### `npm run dev`
 
-Run a development server at `http://localhost:8080/webpack-dev-server/`. This also will watch & recompile on file changes.
+Run a development server at `http://localhost:8080/`. This also will watch & recompile on file changes.
 
 ## License
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Changelog
-
-### 1.1.1
-
-* [ADD] Support for source maps
-* [ADD] ENV flags for proper production builds
-
-### 1.1
-
-* [ADD] html-webpack-plugin
-* [ADD] Adding HMR to the npm run dev-server command
-* [ADD] Template index.html
-* [CHANGE] Add filler content to main.js
-* [CHANGE] Configure webpack to use index.html as a template
-* [CHANGE] Now ignoring dist folder
-* [CHANGE] Updated webpack config with variables, html-webpack-plugin
-* [REMOVE] dist folder no longer needed thanks to html-webpack-plugin
-
-### 1.0
-
-* Initial release.
-
 ## TODO
 - [x] Setup instructions
 - [x] Example of usage
+- [ ] Better production builds
