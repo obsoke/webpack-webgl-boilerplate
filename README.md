@@ -29,7 +29,7 @@ Watch files in `src/` for changes, recompile on change.
 
 #### `npm run dev`
 
-Run a development server at `http://localhost:8080/webpack-dev-server/`. This also will watch & recompile on file changes.
+Run a development server at `http://localhost:8080/`. This also will watch & recompile on file changes.
 
 ## License
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
